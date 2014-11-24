@@ -92,7 +92,7 @@ There are a few optional dependencies you'll need to install to get certain func
 grunt.initConfig({
     upload_file: {
         "zip-partly": {    // only the special QQ num user (usually the developer or tester) can be noticed the zip file has been updated !
-            src: ['dist/qqcache/*.zip'],
+            src: ['dist/qqcache/xxx.zip'],
             options: {
                 url: 'http://admin.connect.oa.com/modules/public/uploadOfflinePackage.do',
                 method: 'POST',
@@ -118,7 +118,7 @@ grunt.initConfig({
             }
         },
         "zip-totally": {
-            src: ['dist/qqcache/*.zip'],
+            src: ['dist/qqcache/xxx.zip'],
             options: {
                 url: 'http://admin.connect.oa.com/modules/public/uploadOfflinePackage.do',
                 method: 'POST',
